@@ -10,7 +10,7 @@ import com.ugee.pentabletinterfacelibrary.ITabletDataCallback;
 
 @Keep
 public final class HwUgBleSdkEntrance {
-    // ℃
+    // ℃ 名称改变
     public void connect(Context context, BleDevice bleDevice, ITabletDataCallback iTabletDataCallback){
         UgBleFactory.getInstance().connect(context,bleDevice,iTabletDataCallback);
     }
