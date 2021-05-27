@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">友基蓝牙SDK演示</string>
+    <string name="searchBleDevice">搜索蓝牙设备</string>
+    <string name="Unconnected">未连接</string>
+    <string name="ConnectionSuccess">连接成功</string>
+    <string name="Pressure">压感值：</string>
+    <string name="BluetoothDevice">蓝牙设备：</string>
+    <string name="ConnectionState">连接状态：</string>
+
+    <string name="ConnectingBluetooth">连接蓝牙</string>
+    <string name="ScavengingList">清除列表</string><!--Scavenging list-->
+    <string name="ScavengingCanvas">清除画布</string>
+    <string name="PointLineSwitching">点线切换</string>
+    <string name="HiddenDisplay">隐藏显示</string>
+
+    <string name="StartTheConnectionDevice">开始连接设备</string>
+    <string name="PleaseWaitALittleLater">请稍后</string>
+    <string name="DisconnectTheConnectionReconnect">断开连接，重连中....</string>
+    <string name="AbnormalityReconnectIn">异常，重连中....</string>
+
+    <string name="ConnectionFailed">连接失败</string>
+    <string name="PressTheButton">按下按钮</string>
+    <string name="LiftButton">抬起按钮</string>
+
+    <string name="canvasType">画板状态</string>
+
+    <string name="pressureValue">压感值：</string>
+    <string name="deviceName">设备名称：</string>
+    <string name="connectType">连接状态：</string>
+    <string name="pen_width_">pen width -</string>
+    <string name="pen_width_add">pen width +</string>
+
+    <string name="ok_yue">正常</string>
+    <string name="deviceNoBle">该设备不支持蓝牙！</string>
+    <string name="bleOpen">蓝牙已开启</string>
+    <string name="connectSuccessBle">连接成功</string>
+    <string name="connectFailBle">连接失败</string>
+    <string name="disConnectBle">断开连接</string>
+    <string name="onStartScan">正在扫描蓝牙设备，请稍后..</string>
+    <string name="onStartConnectDevice">开始连接设备，请稍后..</string>
+
+
+    <string name="bleInit">初始化中..</string>
+</resources>

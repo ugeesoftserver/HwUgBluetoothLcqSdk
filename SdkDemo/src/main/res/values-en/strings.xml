@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">HwUg BLE SDK Demo</string>
+    <string name="searchBleDevice">Search Ble Device</string>
+    <string name="Unconnected">Unconnected</string>
+    <string name="ConnectionSuccess">Connection success</string>
+    <string name="Pressure">Pressure-sensitive value : </string><!--Scavenging list-->
+    <string name="BluetoothDevice">Bluetooth device : </string>
+    <string name="ConnectionState">Connection state : </string>
+
+    <string name="ConnectingBluetooth">Connecting Bluetooth</string>
+    <string name="ScavengingList">Scavenging list</string><!--Start the  device  -->
+    <string name="ScavengingCanvas">Scavenging canvas</string>
+    <string name="PointLineSwitching">Point line switching</string>
+    <string name="HiddenDisplay">Hidden display</string>
+
+    <string name="StartTheConnectionDevice">Start the connection device</string>
+    <string name="PleaseWaitALittleLater">Please wait a little later</string>
+    <string name="DisconnectTheConnectionReconnect">Disconnect the connection, reconnect ....</string>
+    <string name="AbnormalityReconnectIn">Abnormality, reconnect in..</string>
+
+    <string name="ConnectionFailed">connection failed</string>
+    <string name="PressTheButton">Press the button </string>
+    <string name="LiftButton">Lift button </string>
+
+    <string name="canvasType">Sketchpad state</string>
+
+    <string name="pressureValue">Pressure value：</string>
+    <string name="deviceName">device name：</string>
+    <string name="connectType">connect type：</string>
+    <string name="pen_width_">pen width -</string>
+    <string name="pen_width_add">pen width +</string>
+
+
+
+    <string name="ok_yue">Normal</string>
+    <string name="deviceNoBle">The device does not support bluetooth!</string>
+    <string name="bleOpen">Bluetooth enabled</string>
+    <string name="connectSuccessBle">Successfully connected</string>
+    <string name="connectFailBle">Fail to connect</string>
+    <string name="disConnectBle">Disconnect</string>
+    <string name="onStartScan">Scanning bluetooth device, please wait..</string>
+    <string name="onStartConnectDevice">Start connecting to the device, please wait..</string>
+
+    <string name="bleInit">In initialization..</string>
+
+</resources>
