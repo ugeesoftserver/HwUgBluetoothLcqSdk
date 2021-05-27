@@ -1,24 +1,42 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
-        google()
-        jcenter()
+        maven { url 'https://maven.aliyun.com/repository/google' }
+
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven {
+            url 'http://storage.googleapis.com/r8-releases/raw'
+        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.0"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
     }
 }
 
 allprojects {
     repositories {
-        google()
-        jcenter()
+        maven { url "https://www.jitpack.io" }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url "https://maven.google.com" }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext{
+    bleApplicationId = "com.lcq.ugeeble"
+    compileSdkVersion = 30
+    buildToolsVersion = "30.0.3"
+    minSdkVersion = 19
+    targetSdkVersion = 30
 }
