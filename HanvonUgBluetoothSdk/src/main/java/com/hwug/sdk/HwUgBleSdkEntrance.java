@@ -1,9 +1,10 @@
-package com.hwug.hwugbluetoothsdk;
+package com.hwug.sdk;
 
 import android.content.Context;
 
 import androidx.annotation.Keep;
 
+import com.hwug.hwugbluetoothsdk.UgBleFactory;
 import com.hwug.hwugbluetoothsdk.entity.BleDevice;
 import com.ugee.pentabletinterfacelibrary.ITabletDataCallback;
 
