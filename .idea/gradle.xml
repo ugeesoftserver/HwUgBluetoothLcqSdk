@@ -11,7 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/HwUgBluetoothLcqSdk" />
+            <option value="$PROJECT_DIR$/HanvonUgBluetoothSdk" />
             <option value="$PROJECT_DIR$/SdkDemo" />
           </set>
         </option>

@@ -80,9 +80,7 @@ dependencies {
     // sdk underlying library
     implementation(name: 'UgCustomSketchpadLib-release', ext: 'aar')
     implementation(name: 'ControlUtilsLib-release', ext: 'aar')
-//    implementation 'com.github.ugeesoftserver:HwUgBluetoothLcqSdk:0.1+'
-//    implementation project(':HwUgBluetoothLcqSdk')
-    implementation(name: 'HwUgBluetoothLcqSdk-release', ext: 'aar')
-//    implementation project(':HwUgBluetoothLcqSdk')
+//    implementation(name: 'HwUgBluetoothLcqSdk-release', ext: 'aar')
+    implementation 'com.github.ugeesoftserver:HwUgBluetoothLcqSdk:v0.5.1'
 }
 
