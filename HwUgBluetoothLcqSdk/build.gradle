@@ -43,5 +43,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    api files('libs/HwUgBluetoothSdk-release.jar')
+    api files('libs/HwUgBleSdk-release.jar')
 }
